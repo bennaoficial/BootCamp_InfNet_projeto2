@@ -1,0 +1,23 @@
+[data-animate] {
+    opacity: 0 ;
+    transition: 2s;
+}
+
+[data-animate="left"] {
+    transform: translate3d(-100px,0,0);
+}
+[data-animate="right"] {
+    transform: translate3d(100px,0,0);
+}
+[data-animate="up"] {
+    transform: translate3d(0,-100px,0);
+}
+[data-animate="down"] {
+    transform: translate3d(0,100px,0);
+}
+
+[data-animate].animacao {
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
+

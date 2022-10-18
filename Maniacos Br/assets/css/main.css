@@ -1,0 +1,14 @@
+main {
+    background-image: url(../img/Background_1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+main img {
+    width: 800px;
+    height: auto;
+    padding-top: 130px ;
+    display: flex;
+    margin: 0 auto;
+}

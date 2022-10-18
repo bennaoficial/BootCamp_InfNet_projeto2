@@ -1,0 +1,133 @@
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Prompt', sans-serif; */
+@import url(./tela_abertura.css);
+@import url(./header.css);
+@import url(./main.css);
+@import url(./section.css);
+@import url(./animacao.css);
+@import url(./modal.css);
+@import url(./form.css);
+@import url(../libs/slick/slick-theme.css);
+@import url(../libs/slick/slick.css);
+@import url(../libs/bootstrap/bootstrap.min.css);
+@import url(./footer.css);
+@import url(./faq.css);
+/* barra de loading */
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+.pace .pace-progress {
+ background:  #ffc400;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 3px;
+}
+
+
+/* Media-Query */
+
+/*   sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px */
+
+
+  @media screen and (max-width:1400px){  }
+  @media screen and (max-width:1200px){
+    /* header */
+    header div a img{
+      height: 78px;
+  }
+  }
+  @media screen and (max-width:992px){
+   /* header */
+   .menu_1200 {
+    display: none !important;
+   }
+   .menu_992{
+    display: block;
+   }
+   .membros button {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+   /* foto main */
+   main img {
+    width: 600px;
+  
+}
+/* footer */
+footer .container .row .col-md-5 {
+  margin-left: 90px;
+}
+
+  }
+  @media screen and (max-width:768px){
+    /* foto inicial da tela */
+    main {
+      display: none !important;
+    }
+    h1, h2 {
+      text-align: center;
+      margin: 0px;
+    }
+    h1{
+      background: -webkit-linear-gradient(2deg, #1208a8, #00edff 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    h2{
+      background: -webkit-linear-gradient(2deg, #00edff, #1208a8 133%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .membros button {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    /* rider de palco  */
+    #rider_de_palco img {
+      width: 400px;
+    }
+    .spotify p {
+      padding: 0 30;
+    }
+    /* footer */
+footer .container .row .col-md-5 {
+  margin-left: 10px;
+}
+.final {
+  padding-left: 20%;
+}
+  }
+  @media screen and (max-width:576px){
+/* foto inicial da tela */
+main {
+  display: none !important;
+}
+h1, h2 {
+  text-align: center;
+  margin: 0px;
+}
+.membros button {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#rider_de_palco img {
+  width: 400px;
+}
+  }

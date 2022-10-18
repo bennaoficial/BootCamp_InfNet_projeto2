@@ -1,0 +1,14 @@
+.form_container {
+    padding: 0 120px;
+    padding-bottom: 30px;
+    font-weight: bold;
+
+}
+
+.form-label {
+    padding-top: 10px;
+}
+.form_button {
+    display: flex;
+    justify-content: center;
+}

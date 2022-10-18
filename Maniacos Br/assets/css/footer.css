@@ -1,0 +1,51 @@
+footer{
+    width: 100% !important;
+    background-color: #f0ebeb;
+   
+}
+
+footer img {
+    height: 200px;
+    width: 200px;
+   
+}
+
+footer form h5, footer form p {
+    background: -webkit-linear-gradient(2deg, #1208a8, #00edff 50%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+footer form a {
+    font-size: 40px;
+    background: -webkit-linear-gradient(2deg, #1208a8, #00edff 50%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    padding-left: 10px;
+}
+
+footer form a:hover {
+    background: -webkit-linear-gradient(2deg,  #ffc400, #f7e4a6 50%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+
+}
+
+
+footer .text-muted {
+  font-size: 15px;
+ color: #ffc400 !important;
+}
+
+footer .links_footer p {
+    padding: 0 5px;
+}
+footer .links_footer{
+    display: flex;
+}
+.mb-3{
+    margin-bottom: 0 !important;
+}
+.final {
+    padding-left: 40%;
+}
